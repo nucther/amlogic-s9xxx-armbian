@@ -6,7 +6,7 @@ inputs:
   build_target:
     description: "Choose build target: armbian / kernel"
     required: false
-    default: "armbian"
+    default: "kernel"
   # For build armbian -----
   armbian_path:
     description: "Set armbian original file path."
@@ -19,7 +19,7 @@ inputs:
   armbian_kernel:
     description: "Set kernel version."
     required: false
-    default: "5.10.125_5.15.50"
+    default: "5.18.17_5.19.1"
   version_branch:
     description: "Set kernel branch."
     required: false
@@ -44,7 +44,7 @@ inputs:
   kernel_version:
     description: "Select kernel version"
     required: false
-    default: "5.10.125_5.15.50"
+    default: "5.18.17_5.19.1"
   kernel_auto:
     description: "Auto use the latest kernel"
     required: false
@@ -56,7 +56,7 @@ inputs:
   kernel_sign:
     description: "Set the kernel custom signature"
     required: false
-    default: "-ophub"
+    default: "-rohman"
   kernel_repo:
     description: "Select the kernel repository"
     required: false
